@@ -8,20 +8,22 @@
 
 /* Begin PBXBuildFile section */
 		CD1EF5681D92D41C001EE1DA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD1EF5671D92D41C001EE1DA /* AppDelegate.swift */; };
-		CD1EF56A1D92D41C001EE1DA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD1EF5691D92D41C001EE1DA /* ViewController.swift */; };
+		CD1EF56A1D92D41C001EE1DA /* BCTipViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD1EF5691D92D41C001EE1DA /* BCTipViewController.swift */; };
 		CD1EF56D1D92D41C001EE1DA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD1EF56B1D92D41C001EE1DA /* Main.storyboard */; };
 		CD1EF56F1D92D41C001EE1DA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD1EF56E1D92D41C001EE1DA /* Assets.xcassets */; };
 		CD1EF5721D92D41C001EE1DA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD1EF5701D92D41C001EE1DA /* LaunchScreen.storyboard */; };
+		CD1EF57A1D92D864001EE1DA /* BCModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD1EF5791D92D864001EE1DA /* BCModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		CD1EF5641D92D41C001EE1DA /* BillCalculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BillCalculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD1EF5671D92D41C001EE1DA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		CD1EF5691D92D41C001EE1DA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CD1EF5691D92D41C001EE1DA /* BCTipViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BCTipViewController.swift; sourceTree = "<group>"; };
 		CD1EF56C1D92D41C001EE1DA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CD1EF56E1D92D41C001EE1DA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CD1EF5711D92D41C001EE1DA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CD1EF5731D92D41C001EE1DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD1EF5791D92D864001EE1DA /* BCModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BCModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,11 +57,12 @@
 			isa = PBXGroup;
 			children = (
 				CD1EF5671D92D41C001EE1DA /* AppDelegate.swift */,
-				CD1EF5691D92D41C001EE1DA /* ViewController.swift */,
+				CD1EF5691D92D41C001EE1DA /* BCTipViewController.swift */,
 				CD1EF56B1D92D41C001EE1DA /* Main.storyboard */,
 				CD1EF56E1D92D41C001EE1DA /* Assets.xcassets */,
 				CD1EF5701D92D41C001EE1DA /* LaunchScreen.storyboard */,
 				CD1EF5731D92D41C001EE1DA /* Info.plist */,
+				CD1EF5791D92D864001EE1DA /* BCModel.swift */,
 			);
 			path = BillCalculator;
 			sourceTree = "<group>";
@@ -136,7 +139,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CD1EF56A1D92D41C001EE1DA /* ViewController.swift in Sources */,
+				CD1EF56A1D92D41C001EE1DA /* BCTipViewController.swift in Sources */,
+				CD1EF57A1D92D864001EE1DA /* BCModel.swift in Sources */,
 				CD1EF5681D92D41C001EE1DA /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
