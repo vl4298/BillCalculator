@@ -11,11 +11,7 @@ import UIKit
 class BCTipViewController: UIViewController {
   
   // MARK: IBOutlet
-  @IBOutlet weak var billAmountTf: UITextField! {
-    didSet {
-      billAmountTf.delegate = self
-    }
-  }
+  @IBOutlet weak var billAmountLab: UILabel!
   @IBOutlet weak var tipAmountLab: UILabel!
 
   override func viewDidLoad() {
@@ -23,7 +19,17 @@ class BCTipViewController: UIViewController {
     // Do any additional setup after loading the view, typically from a nib.
   }
 
-
+  // MARK: Variables
+  var currentBillingAmount: Int {
+    get {
+      guard let billAmount = billAmountLab.text else { return 0 }
+      
+      return billAmount.intValue
+    }
+    set (newValue) {
+      billAmountLab.text = newValue >= 0 ? String(newValue) : String(0)
+    }
+  }
 }
 
 // MARK: IBAction
@@ -33,14 +39,10 @@ extension BCTipViewController {
   }
   
   @IBAction func increaseBillAmount(sender: UIButton) {
-    
+    currentBillingAmount += 1
   }
   
   @IBAction func decreaseBillAmount(sender: UIButton) {
-    
+    currentBillingAmount -= 1
   }
-}
-
-// MARK: UITextfieldDelegate
-extension BCTipViewController: UITextFieldDelegate {
 }

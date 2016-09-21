@@ -13,6 +13,7 @@
 		CD1EF56F1D92D41C001EE1DA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD1EF56E1D92D41C001EE1DA /* Assets.xcassets */; };
 		CD1EF5721D92D41C001EE1DA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD1EF5701D92D41C001EE1DA /* LaunchScreen.storyboard */; };
 		CD1EF57A1D92D864001EE1DA /* BCModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD1EF5791D92D864001EE1DA /* BCModel.swift */; };
+		CD1EF57C1D92E08B001EE1DA /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD1EF57B1D92E08B001EE1DA /* String.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		CD1EF5711D92D41C001EE1DA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CD1EF5731D92D41C001EE1DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CD1EF5791D92D864001EE1DA /* BCModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BCModel.swift; sourceTree = "<group>"; };
+		CD1EF57B1D92E08B001EE1DA /* String.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = String.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				CD1EF5701D92D41C001EE1DA /* LaunchScreen.storyboard */,
 				CD1EF5731D92D41C001EE1DA /* Info.plist */,
 				CD1EF5791D92D864001EE1DA /* BCModel.swift */,
+				CD1EF57B1D92E08B001EE1DA /* String.swift */,
 			);
 			path = BillCalculator;
 			sourceTree = "<group>";
@@ -141,6 +144,7 @@
 			files = (
 				CD1EF56A1D92D41C001EE1DA /* BCTipViewController.swift in Sources */,
 				CD1EF57A1D92D864001EE1DA /* BCModel.swift in Sources */,
+				CD1EF57C1D92E08B001EE1DA /* String.swift in Sources */,
 				CD1EF5681D92D41C001EE1DA /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -303,6 +307,7 @@
 				CD1EF5781D92D41C001EE1DA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
