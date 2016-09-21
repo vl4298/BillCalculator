@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "6C05F5D99AF920ECE87C8B09FAFFD9B9CD75748F",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "6C05F5D99AF920ECE87C8B09FAFFD9B9CD75748F" : 9223372036854775807,
+    "E1AD430D2F7D42E808648D52639710BF373AB605" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "0088F3AA-1607-4565-9B0C-E7B476983E95",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "6C05F5D99AF920ECE87C8B09FAFFD9B9CD75748F" : "BillCalculator\/",
+    "E1AD430D2F7D42E808648D52639710BF373AB605" : ""
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "BillCalculator",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "BillCalculator\/BillCalculator.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/vl4298\/BillCalculator.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "6C05F5D99AF920ECE87C8B09FAFFD9B9CD75748F"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/vl4298\/BillCalculator.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "E1AD430D2F7D42E808648D52639710BF373AB605"
+    }
+  ]
+}
